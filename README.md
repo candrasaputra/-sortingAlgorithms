@@ -3,23 +3,26 @@ Sorting is about ordering a list of objects. It's a very important thing in prog
 **This repository for educational purposes only.**
 
 ## Sorting Algorithms :
-- Bubble Sort
-- Selection Sort
-- Recursive Bubble Sort
-- Insertion Sort
-- Recursive Insertion Sort
-- Merge Sort
-- Iterative Merge Sort
-- Quick Sort
-- Iterative Quick Sort
-- Heap Sort
-- Counting Sort
-- Radix Sort
-- Bucket Sort
-- ShellSort
-- TimSort
-- Comb Sort
-- Pigeonhole Sort
-- Cycle Sort
-- Cocktail Sort
-- Strand Sort
+| Algorithm                | Time Complexity                  |
+|                          | **Best*  |**Average**| **Worst** |
+| -------------------------|:---------:|:---------:|:---------:|
+|Bubble Sort               |Ω(n)       |θ(n^2)     |O(n^2)     |
+|Selection Sort            |Ω(n^2)     |θ(n^2)     |O(n^2)     |
+|Recursive Bubble Sort     |           |           |           |
+|Insertion Sort            |Ω(n)       |θ(n^2)     |O(n^2)     |
+|Recursive Insertion Sort  |           |           |           |
+|Merge Sort                |Ω(n log(n))|θ(n log(n))|O(n log(n))|
+|Iterative Merge Sort      |           |           |           |
+|Quick Sort                |Ω(n log(n))|θ(n log(n))|O(n^2)     |
+|Iterative Quick Sort      |           |           |           |
+|Heap Sort                 |Ω(n log(n))|θ(n log(n))|O(n log(n))|
+|Counting Sort             |           |           |           |
+|Radix Sort                |Ω(nk)      |θ(nk)      |O(nk)      |
+|Bucket Sort               |Ω(n+k)     |θ(n+k)     |O(n^2)     |
+|ShellSort                 |           |           |           |
+|TimSort                   |           |           |           |
+|Comb Sort                 |           |           |           |
+|Pigeonhole Sort           |           |           |           |
+|Cycle Sort                |           |           |           |
+|Cocktail Sort             |           |           |           |
+|Strand Sort               |           |           |           |
