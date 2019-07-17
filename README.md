@@ -3,8 +3,7 @@ Sorting is about ordering a list of objects. It's a very important thing in prog
 **This repository for educational purposes only.**
 
 ## Sorting Algorithms :
-| Algorithm                | Time Complexity                   |
-|                          |Best       |Average    |Worst      |
+| Algorithm                |Best       |Average    |Worst      |
 | -------------------------|-----------|-----------|-----------|
 |Bubble Sort               |Ω(n)       |θ(n^2)     |O(n^2)     |
 |Selection Sort            |Ω(n^2)     |θ(n^2)     |O(n^2)     |
