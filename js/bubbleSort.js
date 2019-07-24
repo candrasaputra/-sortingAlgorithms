@@ -72,15 +72,7 @@ function bubbleSortMultidimention(array) {
         for (let i = 0; i < array.length - 1; i++) {
             let tmp;
 
-            if (array[i][1] > array[i+1][1]) {
-                tmp = array[i+1];
-                array[i+1] = array[i];
-                array[i] = tmp;
-                
-                isNotSorted = true;
-            }
-
-            if (array[i][1] === array[i+1][1] && array[i][2] > array[i+1][2]) {
+            if ((array[i][1] > array[i+1][1]) || (array[i][1] === array[i+1][1] && array[i][2] > array[i+1][2])) {
                 tmp = array[i+1];
                 array[i+1] = array[i];
                 array[i] = tmp;
